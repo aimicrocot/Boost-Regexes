@@ -1,0 +1,48 @@
+<div class="infoblocks-settings">
+    <div class="inline-drawer">
+        <div class="inline-drawer-toggle inline-drawer-header">
+            <b>🗺️ InfoBlocks — авто-переменные</b>
+            <div class="inline-drawer-icon fa-solid fa-circle-chevron-down down"></div>
+        </div>
+        <div class="inline-drawer-content">
+
+            <div style="margin-bottom:10px;">
+                <label style="display:flex;align-items:center;gap:8px;cursor:pointer;">
+                    <input id="infoblocks_enabled" type="checkbox" />
+                    <span>Включить авто-определение переменных</span>
+                </label>
+            </div>
+
+            <hr style="border-color:#444;margin:10px 0;">
+
+            <p style="color:#aaa;font-size:12px;margin:0 0 8px;">
+                Текущие значения (обновляются после каждого сообщения бота):
+            </p>
+
+            <div style="display:grid;grid-template-columns:1fr 1fr;gap:6px;font-size:13px;">
+                <div style="background:#1e1b18;border-radius:5px;padding:7px 10px;">
+                    📍 <b>Локация:</b><br>
+                    <span id="ib_val_location" style="color:#c9b89a;">—</span>
+                </div>
+                <div style="background:#1e1b18;border-radius:5px;padding:7px 10px;">
+                    🕐 <b>Время:</b><br>
+                    <span id="ib_val_time_of_day" style="color:#c9b89a;">—</span>
+                </div>
+                <div style="background:#1e1b18;border-radius:5px;padding:7px 10px;">
+                    🌦 <b>Погода:</b><br>
+                    <span id="ib_val_weather" style="color:#c9b89a;">—</span>
+                </div>
+                <div style="background:#1e1b18;border-radius:5px;padding:7px 10px;">
+                    ⚔️ <b>Обстановка:</b><br>
+                    <span id="ib_val_situation" style="color:#c9b89a;">—</span>
+                </div>
+            </div>
+
+            <p style="color:#555;font-size:11px;margin-top:10px;">
+                Скрипт слушает сообщения бота и автоматически заполняет переменные<br>
+                <code style="color:#888;">location · time_of_day · weather · situation</code>
+            </p>
+
+        </div>
+    </div>
+</div>
