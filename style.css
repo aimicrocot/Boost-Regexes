@@ -1,0 +1,10 @@
+<div style="display:flex;gap:0;flex-wrap:wrap;background:linear-gradient(90deg,#1e1b18,#2a2520);border:1px solid #5a4535;border-radius:8px;padding:8px 14px;margin-bottom:13px;font-family:Georgia,serif;font-size:13px;color:#e0d4bc;line-height:2;">
+  <span style="margin-right:14px;">📍&thinsp;<b>{{getvar::location}}</b></span>
+  <span style="margin-right:14px;color:#604030;">|</span>
+  <span style="margin-right:14px;">🕐&thinsp;<b>{{getvar::time_of_day}}</b></span>
+  <span style="margin-right:14px;color:#604030;">|</span>
+  <span style="margin-right:14px;">🌦&thinsp;<b>{{getvar::weather}}</b></span>
+  <span style="margin-right:14px;color:#604030;">|</span>
+  <span>⚔️&thinsp;<b>{{getvar::situation}}</b></span>
+</div>
+$1
